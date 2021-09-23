@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    background-color: #ffffd2;
+}
+
+#myVideo {
+    width: 100%;
+} 
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #aa98da;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.family {
+    color: #a8d8ea;
+    font: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sweet {
+    color: #aa96da;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.features {
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    flex: wrap;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+.plan:hover {
+    background-color: #CAB8FF;
+    cursor: pointer;
+}
+
+h3, img, a {
+    align-self: center;
+}
+
+.list {
+    background-color: #ffffd2;
+    color: #7c7575;
+}
+
+h3 {
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.price {
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+del {
+    background-color: #fbb;
+}
+
+ins {
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-7deg);
+}
+
+.cta {
+    background-color: #E63E6D;
+    font-size: 30px;
+    color: #ffffd2;
+    border-radius: 10px;
+}
+
+.cta:hover {
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+/*==============адаптация под большие мобильные экраны IPad=================*/
+@media all and (max-width:800px) {
+    .family {
+        font-size: 15px;
+    }
+    .sweet {
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .place {
+        flex-direction: column;
+        
+    }
+    .placeList {
+        font-size: 15px;
+    }
+
+}
+/*==========адаптация под стандартные мобильные экраны===================*/
+@media all and (max-width:500px) {
+    .family {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .sweet {
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    h2 {
+        font-size: 20px;
+        
+    }
+    .box {
+        margin-left: 15px;
+    }
+    .form {
+        margin-left: 15px;
+    }
+    #myVideo {
+        margin-left: 15px;
+    }
+    .cta {
+        align-self: center;
+    }
+}
+
+
+/*кнопки соц сетей*/
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.vk {
+    padding: 10px;
+    color: #2D46B9;
+}
+
+.insta {
+    padding: 10px;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+.whatsapp-button {
+    position: fixed;
+    right: 13px;
+    bottom: 90px;
+    transform: translate(-50%, -50%);
+    background: #25D366; 
+    border-radius: 50%;
+    width: 55px; 
+    height: 55px; 
+    color: #fff;
+    text-align: center;
+    line-height: 53px; 
+    font-size: 35px; 
+    z-index: 9999;
+}
+
+.color {
+    color: #CAB8FF;
+}
+
+.nezabudka {
+    margin-left: 5px;
+    color: #CAB8FF ;
+    text-decoration: none;
+}
+/*==================================*/
+
+/*=========кнопка заказать===========*/
+.ctaElegance {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 10px; 
+    margin-left: 150px;
+}
+
+
+
+/*========кнопка заказать============*/
+.comeBack {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.back{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color:white;
+    background-color: #B980F0;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+
+    
+} 
+
+.back:hover {
+    background-color: #3DB2FF;
+    cursor:progress;
+    font-size: 18px;
+    }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.place {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fbb;
+    font-size: 30px;
+    text-transform: uppercase;
+    align-items: center;
+}
